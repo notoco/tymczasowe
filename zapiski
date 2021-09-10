@@ -1,0 +1,5 @@
+sed -i 's/plugin.video.cdapl/plugin.video.cdaplMB/g' S01E01.strm
+sed -i 's/json_file=&foldername=/title=/gm' S01E01.strm 
+sed -i 's/ex\_link=https%3A%2F%2Fwww\.cda\.pl%2Fvideo%2F/mode=playvid\&url=/;t;d' S01E01.strm 
+sed -i 's/&mode=decodeVideo//g' S01E01.strm 
+'
